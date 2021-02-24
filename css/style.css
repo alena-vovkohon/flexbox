@@ -1,0 +1,125 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+.price {
+  height: 100vh;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+.container .text-for-price {
+  padding-top: 80px;
+  padding-bottom: 40px;
+}
+.container .flaxbox {
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.container .flaxbox .plan {
+  max-width: 270px;
+  height: 440px;
+  margin: 20px;
+  padding: 20px 0;
+  /* padding-bottom: 24px; */
+  border: 1px solid #c2c2c2;
+  box-sizing: border-box;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.container .text-for-price h3 {
+  font-size: 48px;
+  line-height: 1.17;
+  letter-spacing: -1.5px;
+  color: #333333;
+  padding-bottom: 8px;
+}
+.container .text-for-price p {
+  font-size: 32px;
+  letter-spacing: -1.25px;
+  color: #858585;
+}
+.flaxbox .plan h2 {
+  font-size: 32px;
+  line-height: 1.5;
+  color: #c2c2c2;
+  letter-spacing: -1.25px;
+}
+.flaxbox .plan h3 {
+  font-size: 32px;
+  line-height: 1.5;
+  color: #5c5c5c;
+  letter-spacing: -1.25px;
+}
+.flaxbox .plan h5 {
+  font-size: 12px;
+  line-height: 14px;
+  color: #5c5c5c;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+}
+.flaxbox .plan h4 {
+  font-size: 18px;
+  line-height: 1.78;
+  color: #1be1af;
+  letter-spacing: -0.25px;
+}
+.flaxbox .plan p {
+  margin-bottom: 16px;
+  padding: 15px;
+  font-size: 14px;
+  line-height: 1.71;
+  color: #333333;
+  text-align: center;
+  letter-spacing: 0.25px;
+}
+.flaxbox .plan button {
+  background: #adadad;
+  border: 1px solid #adadad;
+  border-radius: 4px;
+  width: 223px;
+  height: 56px;
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 1.78;
+  text-align: center;
+  letter-spacing: -0.25px;
+}
+.flaxbox .plan h4[class='last'] {
+  color: #7c4dff;
+}
+.container .flaxbox .plan:hover {
+  background: #7c4dff;
+  border: 1px solid #7c4dff;
+}
+.container .flaxbox .plan:hover h2 {
+  color: #1be1af;
+}
+.container .flaxbox .plan:hover h3 {
+  color: #ffffff;
+}
+.container .flaxbox .plan:hover h5 {
+  color: #ffffff;
+}
+.container .flaxbox .plan:hover p {
+  color: #ffffff;
+}
+.container .flaxbox .plan:hover h4[class='last'] {
+  color: #1be1af;
+}
+.container .flaxbox .plan:hover button {
+  background: #ffffff;
+  border: 1px solid #ffffff;
+  border-radius: 4px;
+  width: 223px;
+  height: 56px;
+  color: #333333;
+}
